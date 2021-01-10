@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Nokio";
+    src: url("/assets/fonts/NokioBold.ttf");
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: "Nokio";
+    src: url("/assets/fonts/NokioLight.ttf");
+    font-weight: lighter;
+    font-style: normal;
+  }
+@font-face {
+    font-family: "Nokio";
+    src: url("/assets/fonts/NokioRegular.tff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body{background-color: black;}
+#nav-bar {
+    position: fixed;
+    top: 0%;
+    left:0%;
+    width: 100%;
+    height: 80px;
+    background-color:transparent;
+    border-bottom: solid white 1px;
+    transition-duration: 0.5s;
+    z-index: 100;
+    color: white;
+    transition-duration: 0.5s;
+    backdrop-filter: blur(3px);
+    font-family: "Nokio";
+    font-weight: bold;
+}
+    #nav-bar-title-container {
+        position: absolute;
+        top: -7%;
+        left:1%;
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+        #nav-bar-title {
+            font-size: 25px;
+            flex: 0 0 0px;
+        }
+    #nav-bar-home-container {
+        position: absolute;
+        top: -3%;
+        left: 56%;
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+        #nav-bar-home {
+            font-size: 15px;
+            flex: 0 0 0px;
+        }
+    #nav-bar-about-container {
+        position: absolute;
+        top: -3%;
+        left: 64%;
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+        #nav-bar-about {
+            font-size: 15px;
+            flex: 0 0 0px;
+        }
+    #nav-bar-news-container {
+        position: absolute;
+        top: -3%;
+        left: 72%;
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+        #nav-bar-news {
+            font-size: 15px;
+            flex: 0 0 0px;
+        }
+    #nav-bar-contact-container {
+        position: absolute;
+        top: -3%;
+        left: 80%;
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+        #nav-bar-contact {
+            font-size: 15px;
+            flex: 0 0 0px;
+        }
+    #nav-bar-login-container {
+        position: absolute;
+        top: 28%;
+        left: 90%;
+        width: 8%;
+        height: 40%;
+        justify-content: center;
+        align-items: center;
+        border: solid white 2px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+        #nav-bar-login {
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            font-size: 15px;
+            text-align: center;
+            top: -45%;
+            left: 33%;
+        }
+#nav-bar.after{
+    filter: invert(1);
+    background-color: black;
+    color: white;
+    border-bottom: solid black 1px;
+}
+#nav-bar-login-container:hover {
+    transition-duration: 0.2s;
+   filter: invert(20%);
+}
+#nav-bar-home:hover {
+    transition-duration: 0.2s;
+   filter: invert(20%);
+}
+#nav-bar-about:hover {
+    transition-duration: 0.2s;
+   filter: invert(20%);
+}
+#nav-bar-news:hover {
+    transition-duration: 0.2s;
+   filter: invert(20%);
+}
+#nav-bar-contact:hover {
+    transition-duration: 0.2s;
+   filter: invert(20%);
+}
